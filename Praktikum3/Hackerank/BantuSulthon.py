@@ -14,5 +14,3 @@ def Determine(n):
     else:
         return "Tidak"
 
-#JANGAN DIUBAH!
-print(eval(input()))
