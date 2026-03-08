@@ -40,5 +40,5 @@ def hitung_nilai_akhir(partisipatif: float, tugas: float, proyek: float, uts: fl
     s = 0.15 * uts
     t = 0.15 * uas
     
-    return (p + q + r + s + t)
+    return (p + q + r + s + t) 
 print(hitung_nilai_akhir(100,90,80,98,75))
