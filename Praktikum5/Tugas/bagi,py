@@ -1,0 +1,9 @@
+def bagi(a, b):
+    if b == 0:
+        return -999
+    elif a < b:
+        return 0
+    else:
+        return 1 + bagi(a - b, b)
+
+print(bagi(8,2))
